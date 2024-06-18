@@ -11,6 +11,7 @@
 </head>
 
 <body background="Fondo.jpg">
+    
     <form onsubmit="Login()" class="formulario" id="formulario-login" method="post">
         <center>
             <h2>Inicio de Sesión de la Bliblioteca ULEAM</h2>
@@ -18,12 +19,16 @@
         <div class="contenedor">
             <div class="input-contenedor">
                 <i class="fas fa-envelope icon"></i>
-                <input type="text" id="correo" name="correo" placeholder="Ingrese su correo electrónico"></div>
+                <input type="text" id="correo" name="correo" placeholder="Ingrese el correo electrónico"></div>
             <div class="input-contenedor">
                 <i class="fas fa-key icon"></i>
                 <input type="password" id="password" name="password" placeholder="Contraseña"></div>
-                <a href="index.html" class="cta1">Iniciar Sesión</a>
-            
+                
+                <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i>
+                    <input type="text" id="usuario" name="usuario" placeholder="Ingrese el usuario"></div>
+                    
+                <div class="input-contenedor">
             <p>¿Aún no tienes Cuenta?<a class="link" href="Registro.html">Registrate</a></p>
             <p>¿Olvidaste tu contraseña?<a class="linkrecuperar" href="Recuperacion de Cuenta.html">Recuperar</a></p>
         </div>
